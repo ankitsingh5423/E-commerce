@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce site</title>
+    <!------- css-link ------>
+    <link rel="stylesheet" href="style.css">
+    <!---------- bootstrap-link -------->
+    <link rel="stylesheet" href="./bootstrap-5.2.2-dist/css/bootstrap.min.css">
+    <!------ icons-link ------>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owl-carousel/owl.theme.default.min.css">
+</head>
+
+<body>
+    <!------- Header-section ------>
+
+    <div class="container-fuild header">
+        <h5>FREE SHIPPING ON ORDERS ₹599+</h5>
+    </div>
+
+    <!----- Logo-section ----->
+
+    <div class="container-fuild pt-2 logo-section">
+        <div class="offcanvas-button">
+            <button data-bs-toggle="offcanvas" data-bs-target="#off">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="offcanvas offcanvas-start" id="off">
+                <div class="offcanvas-header">
+                    <a href=""><i class="fa-regular fa-user"></i>LOGIN</a>
+                    <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <li><a href="">HOME</a></li>
+                    <li class="shop" data-bs-toggle="collapse" data-bs-target="#first-heading"><a href="">SHOP</a> <i
+                            class="fa-solid fa-chevron-down"></i>
+                        <ul id="first-heading" class="collapse">
+                            <li data-bs-toggle="collapse" data-bs-target="#sub-first">
+                                <a href="">Heading</a>
+
+                                <ul id="sub-first" class="collapse">
+                                    <li><a href=""> item here</a></li>
+                                    <li><a href=""> item here</a></li>
+                                    <li><a href=""> item here</a></li>
+                                    <li><a href=""> item here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul id="first-heading" class="collapse">
+                            <li data-bs-toggle="collapse" data-bs-target="#sub-second">
+                                <a href="">Heading</a>
+
+                                <ul id="sub-second" class="collapse">
+                                    <li><a href=""> item here</a></li>
+                                    <li><a href=""> item here</a></li>
+                                    <li><a href=""> item here</a></li>
+                                    <li><a href=""> item here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul id="first-heading" class="collapse">
+                            <li data-bs-toggle="collapse" data-bs-target="#sub-third">
+                                <a href="">Heading</a>
+
+                                <ul id="sub-third" class="collapse">
+                                    <li><a href=""> item here</a></li>
+                                    <li><a href=""> item here</a></li>
+                                    <li><a href=""> item here</a></li>
+                                    <li><a href=""> item here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul id="first-heading" class="collapse">
+                            <li data-bs-toggle="collapse" data-bs-target="#sub-fourth">
+                                <a href="">Heading</a>
+
+                                <ul id="sub-fourth" class="collapse">
+                                    <li><a href=""> item here</a></li>
+                                    <li><a href=""> item here</a></li>
+                                    <li><a href=""> item here</a></li>
+                                    <li><a href=""> item here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="">HEALTH GOALS</a></li>
+                    <li class="teas" id="teas" data-bs-toggle="collapse" data-bs-target="#drop-down2"><a
+                            href="">TEAS</a> <i class="fa-solid fa-chevron-down"></i>
+                        <ul id="drop-down2" class="collapse">
+                            <li><a href="">item here</a></li>
+                            <li><a href="">item here</a></li>
+                            <li><a href="">item here</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">GIFTING</a></li>
+                </div>
+            </div>
+        </div>
+
+        <div id="search-icon" class="search ">
+            <a href="javascript: void(0);"><i class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+
+        <div id="search-box" class="search-hover none">
+            <form action="">
+                <input type="text" class="search-input">
+                <button type="submit" id="search-icon-hover"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+        </div>
+
+        <div id="brand-logo" class="logo-image ">
+            <img src="./images/logo.avif" alt="">
+        </div>
+        <div class="user">
+            <a href=""><i class="fa-regular fa-user"></i></a>
+            <a href="" class="store"><i class="fa-solid fa-store"></i></i></a>
+        </div>
+    </div>
+
+    <!----- navbar-section ---->
+    <div class="nav-bar">
+        <ul>
+            <li><a href="">HOME</a></li>
+            <li class="shop"><a href="">SHOP <i class="fa-solid fa-chevron-down"></i></a>
+                <ul class="drop-down">
+                    <div>
+                        <h4>Heading1</h4>
+                        <li><a href=""> item here</a></li>
+                        <li><a href=""> item here</a></li>
+                        <li><a href=""> item here</a></li>
+                        <li><a href=""> item here</a></li>
+                    </div>
+                    <div>
+                        <h4>Heading2</h4>
+                        <li><a href=""> item here</a></li>
+                        <li><a href=""> item here</a></li>
+                        <li><a href=""> item here</a></li>
+                        <li><a href=""> item here</a></li>
+                        <li><a href=""> item here</a></li>
+                    </div>
+                    <div>
+                        <h4>Heading3</h4>
+                        <li><a href=""> item here</a></li>
+                        <li><a href=""> item here</a></li>
+                    </div>
+                    <div>
+                        <h4>Heading4</h4>
+                        <li><a href=""> item here</a></li>
+                        <li><a href=""> item here</a></li>
+                        <li><a href=""> item here</a></li>
+                        <li><a href=""> item here</a></li>
+                    </div>
+                    <div>
+                        <h4>Heading5</h4>
+                        <li><a href=""> item here</a></li>
+                        <li><a href=""> item here</a></li>
+                        <li><a href=""> item here</a></li>
+                    </div>
+                </ul>
+
+            </li>
+            <li><a href="">HEALTH GOALS</a></li>
+            <li class="teas"><a href="">TEAS <i class="fa-solid fa-chevron-down"></i></a>
+                <ul class="drop-down2">
+                    <li><a href="">item here</a></li>
+                    <li><a href="">item here</a></li>
+                    <li><a href="">item here</a></li>
+                </ul>
+            </li>
+            <li><a href="">GIFTING</a></li>
+        </ul>
+    </div>
+
+    <!-- carousel-section -->
+
+    <div class="carousel slide carousel-fade" data-bs-ride="carousel" id="this">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href=""><img src="./images/image4.webp" class="d-block w-100" alt=""></a>
+            </div>
+            <div class="carousel-item">
+                <a href=""><img src="./images/image3.webp" class="d-block w-100" alt=""></a>
+            </div>
+            <div class="carousel-item">
+                <a href=""><img src="./images/image2.webp" class="d-block w-100" alt=""></a>
+            </div>
+            <div class="carousel-item">
+                <a href=""><img src="./images/image1.webp" class="d-block w-100" alt=""></a>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#this" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#this" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+
+    <section id="info-carousel">
+        <div class="container text-info-carousel">
+            <p>No one should have to compromise their health for a Busy Lifestyle. Together with our brands, we're
+                taking a stand
+                against toxins, refusing to settle for anything but the safest, most effective products. We're shifting
+                the mindsets
+                andbuilding a community of people who want a better kind of Product.</p>
+        </div>
+    </section>
+
+    <!-- shop-by-catogory -->
+
+    <div class="shop-catogory">
+        <h2>Shop by Catogory</h2>
+        <div class="container shop-varity">
+            <div class="shop-item">
+                <a href=""><img src="./images/shop-item1.webp" alt=""></a>
+                <h6><a href="">Baking Essentials</a></h6>
+            </div>
+            <div class="shop-item">
+                <a href=""><img src="./images/shop-item2.webp" alt=""></a>
+                <h6><a href="">Dehydrated Fruits</a></h6>
+            </div>
+            <div class="shop-item">
+                <a href=""><img src="./images/shop-item3.webp" alt=""></a>
+                <h6><a href="">Seeds</a></h6>
+            </div>
+        </div>
+        <div class="container shop-varity">
+            <div class="shop-item">
+                <a href=""><img src="./images/shop-item4.webp" alt=""></a>
+                <h6><a href="">Peanut Butter</a></h6>
+            </div>
+            <div class="shop-item">
+                <a href=""><img src="./images/shop-item5.webp" alt=""></a>
+                <h6><a href="">Beauty Powders</a></h6>
+            </div>
+            <div class="shop-item">
+                <a href=""><img src="./images/shop-item6.webp" alt=""></a>
+                <h6><a href="">Flavored Mixes</a></h6>
+            </div>
+        </div>
+    </div>
+
+    <!-- image-with-link-section -->
+    <div class="container" id="img-with-link">
+        <a href=""><img src="./images/image-text.webp" alt=""></a>
+    </div>
+
+    <!-- our-best-seller-section -->
+    <div class="best-seller-main">
+        <h2>Our Bestseller</h2>
+        <div class="best-seller-sub owl-carousel">
+            <div class="best-seller-item ">
+                <a href="" class="seller-item1"><img src="./images/best-seller1.avif" alt=""></a>
+                <div class="best-seller-main-hov">
+                    <a href=""><img src="./images/best-seller1-hover.avif" alt=""></a>
+                </div>
+                <p class="save-offer">save 20%</p>
+                <div class="best-seller-item-details">
+                    <p>
+                        SORICH ORGAINCS <br>
+                        Berries Mix <br>
+                        <del style="opacity: 0.6;"> Rs.420.00</del> <br>
+                        from Rs 230.00
+                    </p>
+                    <button>Buy </button>
+                </div>
+            </div>
+            <div class="best-seller-item">
+                <a href="" class="seller-item1"><img src="./images/best-seller2.avif" alt=""></a>
+                <div class="best-seller-main-hov">
+                    <a href=""><img src="./images/best-seller2-hover.avif" alt=""></a>
+                </div>
+                <p class="save-offer">save 20%</p>
+                <div class="best-seller-item-details">
+                    <p>
+                        SORICH ORGAINCS <br>
+                        Berries Mix <br>
+                        <del style="opacity: 0.6;"> Rs.420.00</del> <br>
+                        from Rs 230.00
+                    </p>
+                    <button>Buy </button>
+                </div>
+            </div>
+            <div class="best-seller-item">
+                <a href="" class="seller-item1"><img src="./images/best-seller3.avif" alt=""></a>
+                <div class="best-seller-main-hov">
+                    <a href=""><img src="./images/best-seller3-hover.avif" alt=""></a>
+                </div>
+                <p class="save-offer">save 20%</p>
+                <div class="best-seller-item-details">
+                    <p>
+                        SORICH ORGAINCS <br>
+                        Berries Mix <br>
+                        <del style="opacity: 0.6;"> Rs.420.00</del> <br>
+                        from Rs 230.00
+                    </p>
+                    <button>Buy </button>
+                </div>
+            </div>
+            <div class="best-seller-item">
+                <a href="" class="seller-item1"><img src="./images/best-seller4.avif" alt=""></a>
+                <div class="best-seller-main-hov">
+                    <a href=""><img src="./images/best-seller4-hover.avif" alt=""></a>
+                </div>
+                <p class="save-offer">save 20%</p>
+                <div class="best-seller-item-details">
+                    <p>
+                        SORICH ORGAINCS <br>
+                        Berries Mix <br>
+                        <del style="opacity: 0.6;"> Rs.420.00</del> <br>
+                        from Rs 230.00
+                    </p>
+                    <button>Buy </button>
+                </div>
+            </div>
+            <div class="best-seller-item">
+                <a href="" class="seller-item1"><img src="./images/best-seller5.avif" alt=""></a>
+                <div class="best-seller-main-hov">
+                    <a href=""><img src="./images/best-seller5-hover.avif" alt=""></a>
+                </div>
+                <p class="save-offer">save 20%</p>
+                <div class="best-seller-item-details">
+                    <p>
+                        SORICH ORGAINCS <br>
+                        Berries Mix <br>
+                        <del style="opacity: 0.6;"> Rs.420.00</del> <br>
+                        from Rs 230.00
+                    </p>
+                    <button>Buy </button>
+                </div>
+            </div>
+            <div class="best-seller-item">
+                <a href="" class="seller-item1"><img src="./images/best-seller5.avif" alt=""></a>
+                <div class="best-seller-main-hov">
+                    <a href=""><img src="./images/best-seller5-hover.avif" alt=""></a>
+                </div>
+                <p class="save-offer">save 20%</p>
+                <div class="best-seller-item-details">
+                    <p>
+                        SORICH ORGAINCS <br>
+                        Berries Mix <br>
+                        <del style="opacity: 0.6;"> Rs.420.00</del> <br>
+                        from Rs 230.00
+                    </p>
+                    <button>Buy </button>
+                </div>
+            </div>
+            <div class="best-seller-item">
+                <a href="" class="seller-item1"><img src="./images/best-seller5.avif" alt=""></a>
+                <div class="best-seller-main-hov">
+                    <a href=""><img src="./images/best-seller5-hover.avif" alt=""></a>
+                </div>
+                <p class="save-offer">save 20%</p>
+                <div class="best-seller-item-details">
+                    <p>
+                        SORICH ORGAINCS <br>
+                        Berries Mix <br>
+                        <del style="opacity: 0.6;"> Rs.420.00</del> <br>
+                        from Rs 230.00
+                    </p>
+                    <button>Buy </button>
+                </div>
+            </div>
+            <div class="best-seller-item">
+                <a href="" class="seller-item1"><img src="./images/best-seller5.avif" alt=""></a>
+                <div class="best-seller-main-hov">
+                    <a href=""><img src="./images/best-seller5-hover.avif" alt=""></a>
+                </div>
+                <p class="save-offer">save 20%</p>
+                <div class="best-seller-item-details">
+                    <p>
+                        SORICH ORGAINCS <br>
+                        Berries Mix <br>
+                        <del style="opacity: 0.6;"> Rs.420.00</del> <br>
+                        from Rs 230.00
+                    </p>
+                    <button>Buy </button>
+                </div>
+            </div>
+            <div class="best-seller-item">
+                <a href="" class="seller-item1"><img src="./images/best-seller5.avif" alt=""></a>
+                <div class="best-seller-main-hov">
+                    <a href=""><img src="./images/best-seller5-hover.avif" alt=""></a>
+                </div>
+                <p class="save-offer">save 20%</p>
+                <div class="best-seller-item-details">
+                    <p>
+                        SORICH ORGAINCS <br>
+                        Berries Mix <br>
+                        <del style="opacity: 0.6;"> Rs.420.00</del> <br>
+                        from Rs 230.00
+                    </p>
+                    <button>Buy </button>
+                </div>
+            </div>
+            <div class="best-seller-item">
+                <a href="" class="seller-item1"><img src="./images/best-seller5.avif" alt=""></a>
+                <div class="best-seller-main-hov">
+                    <a href=""><img src="./images/best-seller5-hover.avif" alt=""></a>
+                </div>
+                <p class="save-offer">save 20%</p>
+                <div class="best-seller-item-details">
+                    <p>
+                        SORICH ORGAINCS <br>
+                        Berries Mix <br>
+                        <del style="opacity: 0.6;"> Rs.420.00</del> <br>
+                        from Rs 230.00
+                    </p>
+                    <button>Buy </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="shop-collection">
+        <button> SHOP COLLECTION</button>
+    </div>
+
+    <!-- image with link section 2 -->
+
+    <div class="image-with-link2">
+        <a href=""><img src="images/image-text2.webp" alt=""></a>
+    </div>
+
+    <div class="image-with-link3">
+        <a href=""><img src="images/image-text3.webp" alt=""></a>
+    </div>
+
+    <div class="image-with-link4">
+        <a href=""><img src="images/image-text4.webp" alt=""></a>
+    </div>
+
+    <div class="image-without-link5">
+        <img src="images/image-text5.webp" alt="">
+    </div>
+
+
+    <!-- commitment section -->
+
+    <div class="commitment">
+        <img src="images/our commitment-image.webp" alt="">
+    </div>
+
+    <!--=== blog-section ---->
+
+    <div class="container-fuild blog">
+        <div class="blog-heading">
+            <h2>Blog</h2>
+        </div>
+        <div class="blog-inner">
+            <div class="blog-inner1">
+                <a href="">
+                    <img src="images/vegen vs meat-image.webp" alt="">
+                </a>
+                <div class="inner-detailes">
+                    <p>
+                        July 21, 2023 | Sorich Organics Pvt Ltd
+                    </p>
+                    <h4>
+                        VEGAN VS MEAT EATER - WHAT IS HEALTHIER
+                    </h4>
+                    <a href="">
+                        Read Now >
+                    </a>
+                </div>
+            </div>
+            <div class="blog-inner2">
+                <a href="">
+                    <img src="images/blog-image2.webp" alt="">
+                </a>
+                <div class="inner-detailes">
+                    <p>
+                        July 21, 2023 | Sorich Organics Pvt Ltd
+                    </p>
+                    <h4>
+                        THE HIDDEN SOURCE OF YOUR ACNE
+                    </h4>
+                    <a href="">
+                        Read Now >
+                    </a>
+                </div>
+            </div>
+            <div class="blog-inner3">
+                <a href="">
+                    <img src="images/blog-image3.webp" alt="">
+                </a>
+                <div class="inner-detailes">
+                    <p>
+                        July 18, 2023 | Sorich Organics Pvt Ltd
+                    </p>
+                    <h4>
+                        Good Carbs vs. Bad Carbs: The Essential Difference
+                    </h4>
+                    <a href="">
+                        Read Now >
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="see-more-post">
+            <button>
+                SEE MORE POSTS
+            </button>
+        </div>
+    </div>
+
+
+    <!----- service-section ----->
+
+    <div class="our-services container">
+        <div class="free-shipping">
+            <img src="images/shipping icon.webp" alt="">
+            <h5>FREE SHIPPING</h5>
+            <p>When you spend Rs.499+</p>
+        </div>
+        <div class="call-us">
+            <img src="images/call icon.webp" alt="">
+            <h5>GIVE US A CALL</h5>
+            <p>+976254673</p>
+        </div>
+        <div class="chat-with-us">
+            <img src="images/chat icon.webp" alt="">
+            <h5>CHAT WITH US </h5>
+            <p>We offer 24-hours chat support</p>
+        </div>
+    </div>
+
+
+    <!------ customer-section ----->
+    <div class="customer-service-heading">
+        <h4>What our customers have to say</h4>
+    </div>
+    <div class="customer-service row">
+        <div class="customer col-12 col-lg-6 col-md-6 col-sm-3">
+            <div class="customer-image">
+                <img src="images/customer1.webp" alt="photo">
+            </div>
+            <div class="customer-experience">
+                <h5>
+                    "IT WAS RECOMMENDED BY A FRIEND AND NOW I AM SUCH AN AVID AND LOYAL USER OF SORICH HEALTHY PRODUCTS"
+                </h5>
+                <p>
+                    :- KOMAL DHINGRA
+                </p>
+            </div>
+        </div>
+        <div class="customer col-12 col-lg-6 col-md-6 col-sm-3">
+            <div class="customer-image">
+                <img src="images/customer2.avif" alt="photo">
+            </div>
+            <div class="customer-experience">
+                <h5>
+                    "I CAN'T GET ENOUGH OF FUSION PARADISE, DEFINITELY ONE OF THE BEST BERRY FUSION, I'VE TASTED"
+                </h5>
+                <p>
+                    :- DEEPAK SHARMA
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="customer-service row">
+        <div class="customer col-12 col-lg-6 col-md-6 col-sm-6">
+            <div class="customer-image">
+                <img src="images/customer3.avif" alt="photo">
+            </div>
+            <div class="customer-experience">
+                <h5>
+                    "I AM LOVING THE NUT EXPERIENCE. IT IS SUBTLE AND QUITE RICH"
+                </h5>
+                <p>
+                    :- APURVA TYAGI
+                </p>
+            </div>
+        </div>
+        <div class="customer col-12 col-lg-6 col-md-6 col-sm-6">
+            <div class="customer-image">
+                <img src="images/customer4.webp" alt="photo">
+            </div>
+            <div class="customer-experience">
+                <h5>
+                    "THIS IS MY GO-TO SNACKS, IT HELPS ME TO SATISFIES MY HUNGER PANGS, THE QUALITY OF MIXES IS
+                    BRILLIANT"
+                </h5>
+                <p>
+                    :- MANISHA DUTTA
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <!---- footer-section ---->
+    <div class="footer">
+        <div class="footer-detailes">
+            <div class="help-row">
+                <p>HELP</p>
+                <ol>
+                    <li><a href="">Become a Partner</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">Cancellation & Refund Policy</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Terms & Conditions</a></li>
+                </ol>
+            </div>
+            <div class="business-row">
+                <p>BUSINESS</p>
+                <ol>
+                    <li><a href="">Corporate Gifting</a></li>
+                    <li><a href="">Sorich Star (Affiliates)</a></li>
+                    <li><a href="">Sustainability</a></li>
+                </ol>
+            </div>
+            <div class="quick-link-row">
+                <p>QUICK LINKS</p>
+                <ol>
+                    <li><a href="">Shop</a></li>
+                    <li><a href="">Career</a></li>
+                    <li><a href="">Blog</a></li>
+                </ol>
+            </div>
+            <div class="follow-us-row">
+                <p>FOLLOW US</p>
+                <section>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-square-youtube"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href=""><i class="fa-regular fa-envelope"></i></a>
+                </section>
+            </div>
+            <div class="who-we-are-row">
+                <p>WHO WE ARE</p>
+                <section>
+                    we are committed to ensure that our herbs, spices, nuts, seeds and all other superfoods are grown
+                    naturally and
+                    processed without any preservative in an ethical and sustainable manner to deliver high quality &
+                    long-lasting shelf
+                    life seasonings, spice-mix and superfoods.
+                </section>
+            </div>
+        </div>
+
+        <!------ accordion ----->
+        <div class="footer-detailes2">
+            <div class="accordion">
+                <div class="accordion-item help-row">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                            data-bs-target="#acc2">HELP</button>
+                    </h2>
+                    <div class="accordion-collapse collapse" id="acc2">
+                        <div class="accordion-body">
+                            <ol>
+                                <li><a href="">Become a Partner</a></li>
+                                <li><a href="">Contact Us</a></li>
+                                <li><a href="">FAQ</a></li>
+                                <li><a href="">Cancellation & Refund Policy</a></li>
+                                <li><a href="">Privacy Policy</a></li>
+                                <li><a href="">Terms & Conditions</a></li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion">
+                <div class="business-row accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                            data-bs-target="#business">Business</button>
+                    </h2>
+                    <div class="accordion-collapse collapse" id="business">
+                        <div class="accordion-body">
+                            <ol>
+                                <li><a href="">Corporate Gifting</a></li>
+                                <li><a href="">Sorich Star (Affiliates)</a></li>
+                                <li><a href="">Sustainability</a></li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion">
+                <div class="quick-link-row accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                            data-bs-target="#quick-links">QUICK LINKS</button>
+                    </h2>
+                    <div class="accordion-collapse collapse" id="quick-links">
+                        <div class="accordion-body">
+                            <ol>
+                                <li><a href="">Shop</a></li>
+                                <li><a href="">Career</a></li>
+                                <li><a href="">Blog</a></li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="follow-us">
+                <h2>follow us</h2>
+                <section>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-square-youtube"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href=""><i class="fa-regular fa-envelope"></i></a>
+                </section>
+            </div>
+            <div class="who-we-are-row">
+                <h2>WHO WE ARE</h2>
+                <section>
+                    we are committed to ensure that our herbs, spices, nuts, seeds and all other superfoods
+                    are grown
+                    naturally and
+                    processed without any preservative in an ethical and sustainable manner to deliver high
+                    quality &
+                    long-lasting shelf
+                    life seasonings, spice-mix and superfoods.
+                </section>
+            </div>
+        </div>
+
+        <div class="site-information">
+            <div class="site-information-link">
+                <a href="" class="first-line">Corporate Gifting</a>
+                <a href="">Sorich Star (Affiliates)</a>
+                <a href="" class="no-line">Sustainability</a>
+                <p>Copyright © 2023 Sorichorganics.</p>
+                <p>made by ANKIT SINGH</p>
+            </div>
+            <div class="payment-icons">
+
+            </div>
+        </div>
+    </div>
+
+    <script src="./bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js"></script>
+    <!-- owl carousel -->
+    <script src="owl-carousel/jquery.min.js"></script>
+    <script src="owl-carousel/owl.carousel.min.js"></script>
+
+    <script>
+        const searchIcon = document.getElementById('search-icon')
+        const searchBox = document.getElementById('search-box')
+        const brandLogo = document.getElementById('brand-logo')
+
+        searchIcon.addEventListener('click', () => {
+            brandLogo.classList.add('none');
+            searchBox.classList.remove('none');
+            searchIcon.classList.add('hidden');
+        })
+
+        let divArr = document.getElementsByTagName('div');
+        // console.log(divArr)
+        for (let i = 10; i < divArr.length; i++) {
+            divArr[i].addEventListener('click', () => {
+                brandLogo.classList.remove('none');
+                searchBox.classList.add('none');
+                searchIcon.classList.remove('hidden');
+            })
+        }
+        // owl-carousel 
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: true
+                    },
+                    600: {
+                        items: 3,
+                        nav: false
+                    },
+                    1000: {
+                        items: 5,
+                        nav: true,
+                        loop: false
+                    }
+                }
+            })
+        });
+    </script>
+</body>
+
+</html>
